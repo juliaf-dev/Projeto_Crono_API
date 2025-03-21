@@ -4,12 +4,12 @@ const port = process.env.PORT || 3000;
 
 // Rota básica para verificar o status da API
 app.get('/api/status', (req, res) => {
-  res.json({ status: 'API is running' });
+  res.json({ status: 'Deu certo ebaa' });
 });
 
 // Iniciar o servidor
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Api rodando em http://localhost:${port}`);
 });
 
 
@@ -19,7 +19,7 @@ const swaggerJsDoc = require('swagger-jsdoc');
 const swaggerOptions = {
   swaggerDefinition: {
     info: {
-      title: 'History Study Platform API',
+      title: 'API PLATAFOMA ESTUDOS DE HISTORIA',
       version: '1.0.0',
     },
   },
